@@ -1,11 +1,11 @@
 n=int(input())
 s=0
-t=num
+t=n
 while t>0:
- digit=t%10
- s+=digit ** 3
- t//=10
-if num==s:
+ digit = t%10
+ s += digit ** 3
+ t //=10
+if n==s:
  print("yes")
 else
  print("no")
