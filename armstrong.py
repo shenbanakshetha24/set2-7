@@ -7,5 +7,5 @@ while t>0:
  t //=10
 if n==s:
  print("yes")
-else
+else:
  print("no")
